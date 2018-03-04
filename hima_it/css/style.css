@@ -710,8 +710,12 @@ a.transparent-btn:hover {
   font-weight: 400;
   font-size: 27px;
   display: block;
-  text-transform: lowercase;
+  text-transform: capitalize;
+  color: #fff;
   transition: all 0.3s ease 0s;
+}
+.footer-logo a{
+  color: #fff;
 }
 #rs-header .menu-area .logo-area a img {
   display: inline-block;
